@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="acmdb">
+
+    <ImageView
+        android:id="@+id/acmdb"
+        android:background="@drawable/ac_mdb"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/textacmdb"
+        android:text="AC 8694 MDB"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/acmdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/spekacmdb"
+        android:text="3 Hands dengan Indikator Tanggal,Casing dan Tali Baja Tahan Karat,Diameter Kasus 39 mm,Ketebalan Casing 6,8 mm,Gesper Pin 3 ATM. "
+        android:layout_below="@id/textacmdb"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/hargaacmdb"
+        android:text="PRICE : Rp.1.200.000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spekacmdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbuyacmdb"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hargaacmdb"
+        android:layout_marginLeft="100dp"
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnshareacmdb"
+        android:text="Share"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btnbuyacmdb"
+        android:layout_below="@+id/hargaacmdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

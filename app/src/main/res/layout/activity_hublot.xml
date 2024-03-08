@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hublot">
+
+    <ImageButton
+        android:id="@+id/btnenergy"
+        android:background="@drawable/hublot_energysystem"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/hublot_flower"
+        android:id="@+id/btnflower"
+        android:layout_toRightOf="@id/btnenergy"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/hublot_fullcarbon"
+        android:id="@+id/btnfullcarbon"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/btnenergy"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/hublot_rainbow"
+        android:id="@+id/btnrainbow"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/btnfullcarbon"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/hublot_titanium"
+        android:id="@+id/btntitanium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnrainbow"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+
+</RelativeLayout>

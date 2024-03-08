@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="ac">
+
+    <ImageButton
+        android:id="@+id/btnacmdb"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ac_mdb" />
+
+    <ImageButton
+        android:background="@drawable/ac_mdr"
+        android:id="@+id/btnacmdr"
+        android:layout_toRightOf="@id/btnacmdb"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/ac_mcb"
+        android:id="@+id/btnacmcb"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/btnacmdb"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/ac_mcl"
+        android:id="@+id/btnacmcl"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/btnacmcb"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/ac_mhr"
+        android:id="@+id/btnacmhr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnacmcl"
+        android:layout_width="170dp"
+        android:layout_height="160dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".acmcl">
+
+    <ImageView
+        android:id="@+id/acmcl"
+        android:background="@drawable/ac_mcl"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/textacmcl"
+        android:text="AC 6609 MCL"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/acmcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/spekacmcl"
+        android:text="Kronograf,Casing Stainless Steel dan Tali Kulit,Diameter Kasus 46mm,Gesper Pin,5 ATM. "
+        android:layout_below="@id/textacmcl"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/hargaacmcl"
+        android:text="PRICE : Rp.1.300.000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spekacmcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbuyacmcl"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hargaacmcl"
+        android:layout_marginLeft="100dp"
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnshareacmcl"
+        android:text="Share"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btnbuyacmcl"
+        android:layout_below="@+id/hargaacmcl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

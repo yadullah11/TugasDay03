@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="rolexdaytona">
+
+    <ImageView
+        android:id="@+id/roldaytona"
+        android:background="@drawable/rolex_daytona"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/textdaytona"
+        android:text="ROLEX DAYTONA"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/roldaytona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/spekdaytona"
+        android:text="
+Cosmograph Daytona 116518LN dihadirkan dengan casing emas kuning 40 mm. Pelat jam meteorit dengan sub pelat jam berwarna hitam dilengkapi dengan jarum detik sapuan tengah yang memungkinkan pembacaan akurat 1/8 detik, sedangkan dua penghitung pada pelat jam menampilkan waktu yang telah berlalu dalam jam dan menit.. "
+        android:layout_below="@id/textdaytona"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/hargadaytona"
+        android:text="PRICE : Rp.1.313.000.000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spekdaytona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbuydaytona"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hargadaytona"
+        android:layout_marginLeft="100dp"
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnsharedaytona"
+        android:text="Share"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btnbuydaytona"
+        android:layout_below="@+id/hargadaytona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

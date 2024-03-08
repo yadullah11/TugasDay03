@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hublotfullcarbon">
+
+    <ImageView
+        android:id="@+id/hubfullcarbon"
+        android:background="@drawable/hublot_fullcarbon"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/textfullcarbon"
+        android:text="INTEGRATED TOURBILLON FULL CARBON"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/hubfullcarbon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/spekfullcarbon"
+        android:text="Di pergelangan tangan, Hublot Big Bang Integrated Tourbillon Full Carbon tampil sedikit lebih kecil dari ukurannya yang 43 mm berkat casing dan gelang berwarna abu-abu muda monokromatik. Jam tangan baru ini sangat ringan berkat konstruksi serat karbon dan tesalium, dan untuk harganya, mempertimbangkan penggunaan bahan inovatif dan mesin jam tourbillon yang indah, jam tangan ini sangat cocok untuk harganya. Big Bang Integrated Tourbillon Full Carbon tersedia dalam edisi terbatas 50 buah yang sangat eksklusif. "
+        android:layout_below="@id/textfullcarbon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/hargafullcarbon"
+        android:text="PRICE : Rp.1.990.000.000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spekfullcarbon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbuyfullcarbon"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hargafullcarbon"
+        android:layout_marginLeft="100dp"
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnsharefullcarbon"
+        android:text="Share"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btnbuyfullcarbon"
+        android:layout_below="@+id/hargafullcarbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

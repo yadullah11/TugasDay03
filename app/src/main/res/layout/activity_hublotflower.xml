@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".hublotflower">
+
+        <ImageView
+            android:id="@+id/hubflower"
+            android:background="@drawable/hublot_flower"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="230dp"
+            android:layout_height="250dp"/>
+        <TextView
+            android:id="@+id/textflower"
+            android:text="TAKASHI MURAKAMI TOURBILLON SAPPHIRE"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/hubflower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/spekflower"
+            android:text="Hublot MP-15 Takashi Murakami Tourbillon Sapphire dilengkapi strap yang tampak mirip dengan versi Only Watch. Strap-nya terbuat dari rubber transparan dengan titanium folding clasp yang dihiasi sapphire insert."
+            android:layout_below="@id/textflower"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/hargaflower"
+            android:text="PRICE : Rp.4.900.000.000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:layout_below="@id/spekflower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnbuyflower"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/hargaflower"
+            android:layout_marginLeft="100dp"
+            android:text="Buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnshareflower"
+            android:text="Share"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/btnbuyflower"
+            android:layout_below="@+id/hargaflower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

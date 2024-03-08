@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".rolex">
+
+    <ImageButton
+        android:id="@+id/btndaytona"
+        android:background="@drawable/rolex_daytona"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/rolex_deepsea"
+        android:id="@+id/btndeepsea"
+        android:layout_toRightOf="@id/btndaytona"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/rolex_hulk"
+        android:id="@+id/btnhulk"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/btndaytona"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/rolex_pepsi"
+        android:id="@+id/btnpepsi"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/btnhulk"
+        android:layout_width="150dp"
+        android:layout_height="170dp"/>
+    <ImageButton
+        android:background="@drawable/rolex_steel"
+        android:id="@+id/btnpremium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnpepsi"
+        android:layout_width="130dp"
+        android:layout_height="160dp"/>
+
+</RelativeLayout>

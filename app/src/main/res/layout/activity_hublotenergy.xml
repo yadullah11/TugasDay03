@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hublotenergy">
+
+    <ImageView
+        android:id="@+id/hubenergy"
+        android:background="@drawable/hublot_energysystem"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:id="@+id/textenergy"
+        android:text="TOURBILLON WEIGHT ENERGY SYSTEM TITANIUM"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/hubenergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/spekenergy"
+        android:text="Hublot MP-10 Tourbillon Weight Energy System Titanium dirancang menggunakan micro-blasted titanium case dengan bentuk persegi panjang.Case-nya memiliki lebar 41,5 mm, panjang 54,1 mm, dan tebal  22,4 mm. Selain itu, jam tangan ini juga memiliki ketahanan air hingga 30 meter sehingga masih tetap aman dipakai walaupun terkena cipratan air. "
+        android:layout_below="@id/textenergy"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/hargaenergy"
+        android:text="PRICE : Rp.4.200.000.000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spekenergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnbuyenergy"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hargaenergy"
+        android:layout_marginLeft="100dp"
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnshareenergy"
+        android:text="Share"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btnbuyenergy"
+        android:layout_below="@+id/hargaenergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
